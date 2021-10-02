@@ -1,7 +1,6 @@
 
 # Aplikacja do zarządzania biblioteką filmów
 
-Na bazie otwartego API ze strony http://omdbapi.com/, zaimplementuj aplikację do zarządzania biblioteką filmów.
 
 Aplikacja ma udostępniać następujące funkcjonalności:
 
@@ -11,7 +10,7 @@ Aplikacja ma udostępniać następujące funkcjonalności:
 - lista filmów "do obejrzenia"
 
 ## 2. Wyszukiwarka
-Widok wyszukiwarki powinien pozwolić na wyszukiwanie filmu w bazie OMDBapi. Lista filmów powinna być wyświetlana w formie okładek + tytuł + rok produkcji. Dodatkowo pod każdym filmem powinien pojawić się widget do oceny filmu w skali od 1-5. Szukasz inspiracji? Zajrzyj tu: https://codepen.io/jamesbarnett/pen/vlpkh :) Ostatnim elementem jest przycisk do oznaczenia filmu jako "chcę obejrzeć".
+Widok wyszukiwarki powinien pozwolić na wyszukiwanie filmu w bazie OMDBapi. Lista filmów powinna być wyświetlana w formie okładek + tytuł + rok produkcji. Dodatkowo pod każdym filmem powinien pojawić się widget do oceny filmu w skali od 1-5. Ostatnim elementem jest przycisk do oznaczenia filmu jako "chcę obejrzeć".
 
 ![images/warsztat1](images/warsztat1.png)
 
@@ -19,7 +18,7 @@ Kiedy użytkownik doda film jako obejrzany (przez dodanie oceny), bądź zaznacz
 
 Po kliknięciu na tytuł / plakat użytkownik przenoszony jest na stronę z detalami.
 
-Na początku wyszukiwarka pokazuje pusty ekran powitalny np. "Hej! zacznij wyszukiwanie filmów". W trakcie wyszukiwania pokazywany jest spinner. Jeśli nastąpi błąd poinformuj użytkownika wyświetlając mu stosowny komunikat.
+Na początku wyszukiwarka pokazuje pusty ekran powitalny np. "Hej! zacznij wyszukiwanie filmów". W trakcie wyszukiwania pokazywany jest spinner. Jeśli nastąpi błąd poinformuje użytkownika, wyświetlając mu stosowny komunikat.
 
 ## 3. Strona z detalami filmu
 Strona z detalami zawiera szczegółowe informacje na temat filmu. Użytkownik z tego miejsca też może ocenić film oraz dodać go do ulubionych. ID filmu powinno być odzwierciedlone w adresie URL tak aby był on łatwo kopiowalny np. moje-filmy.pl/detale/ID. Po wejściu na stronę z poprawnym ID mają się wyświetlić dane na temat filmu. Podanie błędnego ID powinno wyświetlić informację o błędzie. Podczas pobierania pokaż spinner.
@@ -34,4 +33,4 @@ Przy każdym filmie powinna pojawić się ikona do usunięcia filmu z listy. Np.
 ![images/warsztat3](images/warsztat3.png)
 
 ## 5. Przechowywanie danych
-Jako że nie będziemy hostować nigdzie naszej aplikacji, dobrze by było dać użytkownikowi możliwość zapisu. Dane zapisuj do localStorage.
+Użytkownik ma możliwość zapisu. Dane są zapisywane do localStorage.
