@@ -2,7 +2,7 @@
 # Aplikacja do zarządzania biblioteką filmów
 
 
-Aplikacja ma udostępniać następujące funkcjonalności:
+##1. Aplikacja ma udostępniać następujące funkcjonalności:
 
 - wyszukiwarka filmów
 - strona z detalami wybranego filmu
